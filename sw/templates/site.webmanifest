@@ -1,0 +1,31 @@
+{
+    "name": "{{country_code_uc}} QBar Codes",
+    "short_name": "QBar Codes",
+    "icons": [
+        {
+            "src": "/{{country_code_lc}}/static/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/{{country_code_lc}}/static/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/{{country_code_lc}}/static/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+
+    ],
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "start_url": "/{{country_code_lc}}/",
+    "scope": "/{{country_code_lc}}/",
+    "display": "standalone",
+    "orientation": "portrait"
+}
